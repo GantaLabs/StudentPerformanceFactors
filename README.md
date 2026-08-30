@@ -54,3 +54,79 @@ Some of the features included in the dataset are:
 - `Sleep_Hours`
 - `Learning_Disabilities`
 - `Distance_from_Home`
+
+## 🔬 Project Workflow
+
+This project follows a structured data analysis and machine learning workflow:
+
+1. **Data Understanding**
+   - Understand the dataset structure, features, data types, and target variable.
+   - Examine the distribution and characteristics of the data.
+
+2. **Data Cleaning**
+   - Check for missing values.
+   - Identify duplicated records.
+   - Check for inconsistent or invalid values.
+   - Verify the data types of each feature.
+
+3. **Exploratory Data Analysis (EDA)**
+   - Analyze the distribution of `Exam_Score`.
+   - Explore relationships between numerical features and `Exam_Score`.
+   - Analyze categorical features and their relationship with student performance.
+   - Identify patterns and potential factors associated with exam scores.
+
+4. **Feature Analysis**
+   - Examine correlations between numerical variables.
+   - Identify features that have stronger relationships with `Exam_Score`.
+   - Investigate possible multicollinearity between predictor variables.
+
+5. **Data Preprocessing**
+   - Handle categorical variables through appropriate encoding techniques.
+   - Prepare numerical and categorical features for machine learning.
+   - Separate predictor variables from the target variable.
+
+6. **Model Development**
+   - Split the dataset into training and testing sets.
+   - Train multiple machine learning regression models.
+   - Compare the performance of different models.
+
+7. **Model Evaluation**
+   - Evaluate predictions using appropriate regression metrics.
+   - Compare model performance to determine which model performs best.
+   - Analyze the strengths and limitations of the selected model.
+
+---
+
+## 📈 Analysis Focus
+
+The analysis focuses on understanding how different student-related factors are associated with `Exam_Score`.
+
+Several factors are investigated, including:
+
+- Study habits and `Hours_Studied`
+- `Attendance`
+- Previous academic performance through `Previous_Scores`
+- `Tutoring_Sessions`
+- Access to educational resources
+- Parental involvement and education level
+- Motivation and peer influence
+- Teacher quality
+- Internet access
+- Physical activity and sleep habits
+- Learning disabilities
+- Distance from home
+- Other demographic and school-related factors
+
+The analysis does not assume that a relationship between two variables necessarily represents a causal relationship. The goal is to identify statistical associations and evaluate their usefulness for prediction.
+
+---
+
+## 📊 Statistical Analysis
+
+Correlation analysis is used to examine the relationship between numerical variables and `Exam_Score`.
+
+The project also investigates **multicollinearity** among predictor variables using the **Variance Inflation Factor (VIF)**.
+
+Multicollinearity is important because highly correlated predictors can make statistical interpretation more difficult and may affect some machine learning or regression models.
+
+The statistical analysis is therefore used as a foundation for feature selection, preprocessing decisions, and model development.
