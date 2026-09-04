@@ -39,9 +39,8 @@ The dataset contains **6,607 student records** and **20 features** related to st
 
 ### Target Variable
 
-| Variable     | Description          |
-| ------------ | -------------------- |
-| `Exam_Score` | Student's exam score |
+
+ `Exam_Score` 
 
 ### Features
 
@@ -80,7 +79,7 @@ Advanced EDA ← Encoding ← Feature Engineering ← Feature Scaling
       ↓
 Modeling → Hyperparameter Tuning → Final Evaluation 
                                                 ↓
-                                             Analysis → Save Model
+                                Save Model ← Analysis
 ```
 
 ### Workflow Description
@@ -301,7 +300,7 @@ These coefficients represent **model associations**, not causal effects. For exa
 
 ---
 
-# 💡 Key Findings
+# Key Findings
 
 Several important observations were identified throughout the analysis:
 
